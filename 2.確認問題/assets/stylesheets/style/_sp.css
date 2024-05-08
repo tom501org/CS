@@ -1,3 +1,120 @@
 /* sp用スタイル */
 @media screen and (max-width: 768px) {
+
+  .top{
+    background-color: #e91e63;
+  }
+
+  .logo{
+    background-color: #141f40;
+  }
+
+
+  .left{
+    max-height: 100%;
+    background-color: #0093b7;
+  }
+
+  .leftList{
+    height: 250px;
+  }
+
+  .left__ttl{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+  }
+
+  .left__ttl--sub{
+    display: none;
+  }
+
+  .right{
+  background-color: #dbd400;
+  }
+
+  .rightList{
+    position: relative;
+    margin: 0px 25px 0px 25px;
+  }
+
+
+
+  .right__listItem{
+    /* padding-right: 130px;
+    padding-bottom: 30px; */
+    overflow: hidden;
+  }
+
+  .right__box{
+    position:absolute;
+    top:25px;
+    width: 33.5%;
+    height:100px;
+    background-color: #31A41F;
+  }
+
+  .right__text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.4px;
+    margin: 25px 0 30px 50%;
+
+  }
+
+
+  .rightList--sub{
+    position: relative;
+    margin: 0px 25px 0px 25px;
+  }
+
+
+
+  .right__listItem--sub{
+    /* padding-right: 130px;
+    padding-bottom: 30px; */
+    overflow: hidden;
+  }
+
+  .right__box--sub{
+    position:absolute;
+    top:0px;
+    width: 33.5%;
+    height:100px;
+    background-color: #31A41F;
+  }
+
+  .right__text--sub{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.4px;
+    margin: 0 0 25px 50%;
+
+  }
+
+
+
+
+
+
+
+  .bottom{
+    background-color: #170e38;
+  }
+
+  .bottom__box{
+    position:absolute;
+    width: 50px;
+    height: 50px;
+    background-color:  #D9D9D9;
+  }
+
+  .bottom__box--sub{
+    position:absolute;
+    right: 25px;
+    width: 100px;
+    height: 50px;
+    background-color:  #D9D9D9;
+  }
 }
+
